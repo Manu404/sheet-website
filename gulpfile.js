@@ -15,7 +15,6 @@ const build = gulp.series('clean',
     gulp.parallel('mergeCss', 'mergeJs'),
     gulp.parallel('minifyCss', 'minifyJs'));
 
-
 const fav = gulp.series('cleanFav', 'check-for-favicon-update', 'generate-favicon');
 const inject = gulp.series(fav, 'inject-favicon-markups');
 

@@ -19,8 +19,9 @@ gulp.task('modules', function () {
         './node_modules/jquery.easing/*.min.js'
     ]).pipe(gulp.dest('./vendor/jquery'));
     var jquery_css = gulp.src('./node_modules/jquery-ui-dist/**/*.min.css').pipe(gulp.dest('./vendor/jquery/css'));
+    var holder = gulp.src('./node_modules/holderjs/holder.min.js').pipe(gulp.dest('./vendor/holder'));
     var animejs = gulp.src('./node_modules/animejs/lib/*.min.js').pipe(gulp.dest('./vendor/animejs'));
-    return merge(bootstrap, jquery, jquery_css, animejs);
+    return merge(bootstrap, jquery, jquery_css, holder, animejs);
 });
 
 gulp.task('release', function () {
@@ -52,7 +53,8 @@ gulp.task('glyph', function () {
     return gulp.src('build/glyph.json')
         .pipe(fontello({
             css: "css",
-            font: "font"
+            font: "font",
+            host: "https://fontello.com"
         }))
         .pipe(gulp.dest('./'));
 });
