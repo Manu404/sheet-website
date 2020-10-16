@@ -1,0 +1,59 @@
+{
+  "name": "sheet-website",
+  "version": "1.0.0",
+  "description": "sheet music sharing for https://emmanuelistace.be",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manu404/sheet-website.git"
+  },
+  "author": "eis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manu404/sheet-website/issues"
+  },
+  "homepage": "https://github.com/Manu404/sheet-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1",
+    "browser-sync": "^2.26.12",
+    "del": "^6.0.0",
+    "gulp": "4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-decompress": "^3.0.0",
+    "gulp-download-files": "0.0.3",
+    "gulp-exec": "^5.0.0",
+    "gulp-fontello": "^0.5.1",
+    "gulp-if": "^3.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-real-favicon": "^0.3.2",
+    "gulp-rename": "2.0.0",
+    "gulp-sass": "4.1.0",
+    "gulp-uglify": "3.0.2",
+    "gulp-zip": "^5.0.0",
+    "lodash": "^4.17.15",
+    "merge-stream": "2.0.0",
+    "require-dir": "^1.2.0",
+    "tmp": "^0.2.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}
