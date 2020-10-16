@@ -1,7 +1,7 @@
 # sheet-website
 Sheet music sharing for https://emmanuelistace.be
 
-deps folder contain a zip of a dep not available on npm, will see with the author to publish it through npm, meanwhile, prefered to add the zip itself
+deps folder contain a zip of the abcwebplayer(https://wim.vree.org/js/) not available on npm, will see with the author to publish it through npm, meanwhile, prefered to add the zip itself 
 
     npm install gulp --global
     npm install
